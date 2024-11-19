@@ -1,0 +1,278 @@
+
+{% extends 'base.html ' %}
+
+{% load static %}
+
+{%  block content %}
+
+
+
+    <div class="breadcrumb-area mb-30">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+
+    <!-- contact us area -->
+    <section class="contact-style-2 pt-30 pb-35">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact2-title text-center mb-65">
+                        <h2>contact us</h2>
+                        <p> Claritas est etiam processus dynamicus, Maria Denardo is the Fashion Director at theFashionSpot<br>mutationem consuetudium lectorum. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="contact-single-info mb-30 text-center">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <h3>address street</h3>
+                        <p>Address : No 40 Baria Sreet<br>NewYork City, United States.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="contact-single-info mb-30 text-center">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <h3>number phone</h3>
+                        <p>Phone 1: 0(1234) 567 89012<br>Phone 2: 0(987) 567 890</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="contact-single-info mb-30 text-center">
+                        <div class="contact-icon">
+                            <i class="fa fa-fax"></i>
+                        </div>
+                        <h3>number fax</h3>
+                        <p>Fax 1: 0(1234) 567 89012<br>Fax 2: 0(987) 567 890</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="contact-single-info mb-30 text-center">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h3>address email</h3>
+                        <p>info@roadthemes.com<br>yourname@roadthemes.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact form two -->
+    <div class="contact-two-area pt-60 pb-70">
+       <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact2-title text-center mb-60">
+                        <h2>tell us your project</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-message">
+                        <form id="contact-form" action="https://htmldemo.net/sinrato/sinrato/s/php/mail.php" method="post" class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="first_name" placeholder="Name *" type="text">    
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="phone" placeholder="Phone *" type="text">   
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="email_address" placeholder="Email *" type="text">    
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input name="contact_subject" placeholder="Subject *" type="text">   
+                                </div>
+                               <div class="col-12">
+                                    <div class="contact2-textarea text-center">
+                                        <textarea placeholder="Message *" name="message"  class="form-control2" required=""></textarea>     
+                                    </div>   
+                                    <div class="contact-btn text-center">
+                                        <button class="btn btn-secondary" type="submit">Send Message</button> 
+                                    </div> 
+                                </div> 
+                                <div class="col-12 d-flex justify-content-center">
+                                    <p class="form-messege"></p>
+                                </div>
+                            </div>
+                        </form>    
+                    </div> 
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- scroll to top -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div> <!-- /End Scroll to Top -->
+
+    <!-- footer area start -->  
+    <footer>
+        <!-- news-letter area start -->
+        <div class="newsletter-group">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="newsletter-box">
+                            <div class="newsletter-inner">
+                                <div class="newsletter-title">
+                                    <h3>Sign Up For Newsletters</h3>
+                                    <p>Be the First to Know. Sign up for newsletter today</p>
+                                </div>
+                                <div class="newsletter-box">
+                                    <form id="mc-form">
+                                        <input type="email" id="mc-email" autocomplete="off" class="email-box" placeholder="enter your email">
+                                        <button class="newsletter-btn" type="submit" id="mc-submit">subscribe !</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="link-follow">
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a>
+                                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                        </div><!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- news-letter area end -->
+        <!-- footer top area start -->
+        <div class="footer-top pt-50 pb-50">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer-single-widget">
+                            <div class="widget-title">
+                                <div class="footer-logo mb-30">
+                                    <a href="index.html">
+                                         <img src="{% static 's/img/logo/logo-sinrato.png' %}" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="widget-body">
+                                <p>We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
+                                <div class="payment-method">
+                                    <h4>payment</h4>
+                                    <img src="{% static 's/img/payment/payment.png' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single widget end -->
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-single-widget">
+                            <div class="widget-title">
+                                <h4>Information</h4>
+                            </div>
+                            <div class="widget-body">
+                                <div class="footer-useful-link">
+                                    <ul>
+                                        <li><a href="about.html">about us</a></li>
+                                        <li><a href="#">Delivery Information</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Returns</a></li>
+                                        <li><a href="#">Site Map</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-single-widget">
+                            <div class="widget-title">
+                                <h4>contact us</h4>
+                            </div>
+                            <div class="widget-body">
+                                <div class="footer-useful-link">
+                                    <ul>
+                                        <li><span>Address:</span> 4710-4890 Breckinridge St,Fayetteville, NC 28311</li>
+                                        <li><span>email:</span> support@sinrato.com</li>
+                                        <li><span>Call us:</span> <strong>1-1001-234-5678</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-single-widget">
+                            <div class="widget-title">
+                                <h4>Our Twitter Feed</h4>
+                            </div>
+                            <div class="widget-body">
+                                <div class="twitter-article">
+                                    <div class="twitter-text">
+                                        Check out "Alice - Multipurpose Responsive #Magento #Theme" on #Envato by <a href="#">@sinratos</a> #Themeforest <a href="#">https://t.co/DNdhAwzm88</a>
+                                        <span class="tweet-time"><i class="fa fa-twitter"></i><a href="#">30 sep</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single widget end -->
+                </div>
+            </div>
+        </div>
+        <!-- footer top area end -->
+        <!-- footer bottom area start -->
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom-content">
+                            <div class="footer-copyright">
+                            <p>&copy; 2021 <b>Sinrato</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/"><b>HasThemes</b></a></p>
+                            </div>
+                            <div class="footer-custom-link">
+                                <a href="#">Brands</a>
+                                <a href="#">Specials</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom area end -->
+    </footer>
+    <!-- footer area end -->
+
+	<!-- all js include here -->
+    <script src="{% static 's/js/vendor/jquery-1.12.4.min' %}"></script>
+    <script src="{% static 's/js/bootstrap.min' %}"></script>
+    <script src="{% static 's/js/plugins' %}"></script>
+    <script src="{% static 's/js/ajax-mail' %}"></script>
+    <script src="{% static 's/js/main' %}"></script>
+</body>
+
+<!-- Mirrored from htmldemo.net/sinrato/sinrato/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Jun 2023 14:06:37 GMT -->
+</html>
+{% endblock %}
